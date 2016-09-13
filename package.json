@@ -1,0 +1,25 @@
+{
+  "name": "favst-dojo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "gen-voice": "bin/gen-voice.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/intern-net/favst-dojo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intern-net/favst-dojo/issues"
+  },
+  "homepage": "https://github.com/intern-net/favst-dojo#readme",
+  "dependencies": {
+    "firebase": "^3.3.2"
+  }
+}
