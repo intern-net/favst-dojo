@@ -7,8 +7,12 @@ const Header = () => (
     <MuiThemeProvider>
         <AppBar
             title="favclip station"
-            titleStyle={{ textAlign: "center" }}
+            titleStyle={{
+                fontWeight: "bold",
+                textAlign: "center",
+             }}
             showMenuIconButton={false}
+            style={{ position: 'fixed' }}
             />
     </MuiThemeProvider>
 );
