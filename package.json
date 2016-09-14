@@ -23,6 +23,7 @@
   "dependencies": {
     "babel-polyfill": "^6.13.0",
     "firebase": "^3.3.2",
+    "flumpt": "^0.2.0",
     "material-ui": "^0.15.4",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",

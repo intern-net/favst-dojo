@@ -1,4 +1,5 @@
-import React from 'react';
+import * as React from 'react';
+import {Flux, Component} from 'flumpt';
 
 import {GridList, GridTile} from 'material-ui/GridList';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -20,7 +21,11 @@ const styles = {
     },
 };
 
-export default class GenreGridList extends React.Component {
+export default class GenreGridList extends Component {
+    componentDidMount() {
+        this.dispatch('increment');
+    }
+
     render() {
         return (
             <div style={styles.root}>

@@ -1,9 +1,14 @@
-import React from 'react';
+import * as React from 'react';
+import {Flux, Component} from 'flumpt';
 
 import GridTile from 'material-ui/GridList';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-export default class GenreGridTile extends React.Component {
+export default class GenreGridTile extends Component {
+    componentDidMount() {
+        this.dispatch('increment');
+    }
+
     render() {
         return (
             <MuiThemeProvider>

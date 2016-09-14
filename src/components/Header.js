@@ -1,20 +1,27 @@
-import React from 'react';
+import * as React from 'react';
+import {Flux, Component} from 'flumpt';
 
 import AppBar from 'material-ui/AppBar';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-const Header = () => (
-    <MuiThemeProvider>
-        <AppBar
-            title="favclip station"
-            titleStyle={{
-                fontWeight: "bold",
-                textAlign: "center",
-             }}
-            showMenuIconButton={false}
-            style={{ position: 'fixed' }}
-            />
-    </MuiThemeProvider>
-);
+export default class Header extends Component {
+    componentDidMount() {
+        this.dispatch('increment');
+    }
 
-export default Header
+    render() {
+        return (
+            <MuiThemeProvider>
+                <AppBar
+                    title="favclip station"
+                    titleStyle={{
+                        fontWeight: "bold",
+                        textAlign: "center",
+                    }}
+                    showMenuIconButton={false}
+                    style={{ position: 'fixed' }}
+                    />
+            </MuiThemeProvider>
+        );
+    }
+}
