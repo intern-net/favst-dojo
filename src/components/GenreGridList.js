@@ -34,6 +34,7 @@ export default class GenreGridList extends React.Component {
                                     label={genre.name}
                                     labelColor="#FFFFFF"
                                     labelStyle={{
+                                        fontSize: "1.2em",
                                         fontWeight: "bold",
                                     }}
                                     style={{
