@@ -1,0 +1,14 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/Cellar/node/5.11.0/bin/node /usr/local/bin/firebase serve
+[debug] CLI Version:  3.0.7
+[debug] Platform:     darwin
+[debug] Node Version: v5.11.0
+[debug] Time:         Wed Sep 14 2016 12:06:00 GMT+0900 (JST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /Users/drillbits/src/github.com/intern-net/favst-dojo
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000
