@@ -34,4 +34,8 @@ app.on(':end-anync-updating', () => {
     // hide ui lock
 });
 
-app.update(_initialState => ({ count: 1 })) // it fires rendering
+// it fires rendering
+app.update(_initialState => ({
+    count: 1,
+    voices: JSON.parse(localStorage.getItem('voices')),
+}))
